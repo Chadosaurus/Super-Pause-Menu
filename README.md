@@ -14,7 +14,7 @@ from the plugins folder.
 Installation is complete.
 For first time use, especially if you're using attract-mode or attract-mode +, please see the Super Pause Menu Manual.pdf located in the "Super Pause Menu" folder located in the root directory of your front end emulator for Set-up instructions.
 
-NOTE: There is a few errors I noticed in the manual. Specifically step 6 of the attract-mode manual:
+NOTE: There is a few errors I noticed in the manual. Specifically step 6 of the attract-mode setup instructions:
 
 6. The last option is “Manual folder location” if left at Default it will choose the 
 location of “attract-mode\Super pause menu\Manuals\Platform Name\”. The pause 
