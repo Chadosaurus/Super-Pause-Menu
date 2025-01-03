@@ -1,6 +1,7 @@
 Super Pause Menu is a Windows Pause menu plugin/executable for Launchbox/BigBox Attract-Mode and Attract-Mode +.
 
 To install:
+
 Download the Super Pause Menu Vxx.zip file. Right click the file in your downloads folder, go to properties -> Check the Unblock square and apply, then close the dialog.
 
 Right click the file again and choose: Extract All.. when the browse menu pops up choose your root launchbox, Attract-Mode, or Attract-Mode+ ordirectory and click extract. A dialog will pop up asking you you to merge the plugins folder, choose "Yes".
