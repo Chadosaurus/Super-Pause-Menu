@@ -4,7 +4,7 @@ To install:
 
 Download the Super Pause Menu Vxx.zip file. Right click the file in your downloads folder, go to properties -> Check the Unblock square and click apply, then close the dialog.
 
-Right click the file again and choose: Extract All.. when the browse menu pops up choose your root launchbox, Attract-Mode, or Attract-Mode+ ordirectory and click extract. A dialog will pop up asking you you to merge the plugins folder, choose "Yes".
+Right click the file again and choose: Extract All.. when the browse menu pops up choose your root launchbox, Attract-Mode, or Attract-Mode+ directory and click extract. A dialog will pop up asking you you to merge the plugins folder, choose "Yes".
 You will now have a new folder located the directory of your chosen front end emulator labeled “Super pause menu”. 
 Two new files labeled Super Pause Menu.nut and Super Pause Menu.dll will be placed in your plugins folder.  
 
