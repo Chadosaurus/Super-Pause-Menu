@@ -1,1 +1,1 @@
-V2.2.1 - Fix a bug where the reset option shows on the menu even when it's disabled in the settings. Fixed some errors on the manual file.
+V2.2.1 - Fixed a bug where the reset option shows on the menu even when it's disabled in the settings. Fixed some errors on the manual file.
