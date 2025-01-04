@@ -22,3 +22,4 @@ menu will look for a file named the same as your rom filename but with an image
 extension.
 
 The pause menu look for a .pdf file to use as a manual file, NOT an image file. I will add this change to the manual in the next version.
+**Fixed January 01, 2024 - Replaced manual file in archive.
