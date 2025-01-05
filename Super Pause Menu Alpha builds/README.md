@@ -1,1 +1,12 @@
 Latest build not quite ready for full release. Could be buggy.
+
+-Working on- (Priorities may changed or dropped)
+1. Implementing CBZ and CBR support for manuals
+2. Allowing the user to create submenus for their hotkeys
+3. Video support
+
+
+-Log-
+Updated default emulator profile for mame for the default hotkeys for v 0.273. Ensure your command line paramaters for mame  are "-keyboardprovider dinput" inside of Launchbox. For attract-mode (and +) Command arguments in would be [name] -keyboardprovider dinput
+Added a folder 
+-Added a folder in \Super pause menu\Emulators for older emulator hotkey configs. Called "Older and alt emulator configs"
