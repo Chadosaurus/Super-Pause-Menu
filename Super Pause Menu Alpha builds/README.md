@@ -4,6 +4,8 @@ Latest build not quite ready for full release. Could be buggy.
 1. Implementing CBZ and CBR support for manuals
 2. Allowing the user to create submenus for their hotkeys
 3. Video support
+4. Guide book support
+5. Managing Save state images
 
 
 -Log-
