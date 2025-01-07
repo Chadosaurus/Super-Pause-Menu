@@ -6,6 +6,7 @@ Latest build not quite ready for full release. Could be buggy.
 3. Video support
 4. Guide book support
 5. Managing Save state images
+6. Artwork viewer
 
 
 -Log-
