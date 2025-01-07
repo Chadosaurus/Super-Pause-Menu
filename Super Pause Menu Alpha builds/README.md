@@ -15,3 +15,4 @@ Added a folder
 -Added a folder in \Super pause menu\Emulators for older emulator hotkey configs. Called "Older and alt emulator configs"
 -Updated launchbox plugin from .netcore 3.1 to 6. Can now push game filepath to the pause menu
 -Changed the pause/unpause button in mame to F5 to match the new mame default keys.
+-Updated settings program, now has "alternative manual root folder" selection. Will be used for launchbox and attract-mode for CBZ, CBR manuals.
