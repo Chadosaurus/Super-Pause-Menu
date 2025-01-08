@@ -22,8 +22,6 @@ class UserConfig </ help="Super Pause Menu Plugin - For more more customization 
 	CartBack = "CARTBACK";
         </ label="Game box 3D image", help="Artwork label used for the 3D box image (defaults are snap, wheel, fanart, marquee, flyer) artwork name can be found in emulator configuration in attract mode.", order=11 />
 	Box3D = "BOX3D";
-        </ label="Manual folder location", help="Root folder location for manuals. Pause menu will look for manuals in \"Manual folder location\\GAME PLATFORM\\GAME TITLE.PDF\" a value of \"Default\" will look manuals in Super pause menu\\Manuals\\GAME TITLE.PDF", order=12 />
-	ManualFolder = "Default";
 };
 
 local config = fe.get_config();
@@ -93,7 +91,6 @@ if (config["GamePlatform"] == "Emulator name")
 GamePlatform = fe.game_info(Info.Emulator)
 }
 
-local ManualFolder = config["ManualFolder"]
 local PlatformClearLogo = config["PlatformClearLogo"]
 local AMdirectory = fe.path_expand("$PROGDIR")
 local EmuAppPath = "-"
@@ -103,7 +100,7 @@ local RomName = fe.game_info(Info.Name)
 
 
 
-local command = "\"" + AMdirectory + "|" + EmuAppPath  + "|" + GamePlatform + "|" + GameTitle + "|" + BGImage + "|" + ClearLogo + "|" + FrontImage + "|" + ManualFolder + "|-|" + ScreenShot + "|-|-|" + GameYear + "|-|" + PlatformClearLogo + "|-|" + CARTDISK3D + "|" + CARTDISK2D + "|" + CartBack + "|" + Box3D + "|" + BoxBack + "\" \"\" \"" + RomName + "\""
+local command = "\"" + AMdirectory + "|" + EmuAppPath  + "|" + GamePlatform + "|" + GameTitle + "|" + BGImage + "|" + ClearLogo + "|" + FrontImage + "|-|-|" + ScreenShot + "|-|-|" + GameYear + "|-|" + PlatformClearLogo + "|-|" + CARTDISK3D + "|" + CARTDISK2D + "|" + CartBack + "|" + Box3D + "|" + BoxBack + "\" \"\" \"" + RomName + "\""
 
 		fe.plugin_command_bg("$PROGDIR\\Super pause menu\\Super pause menu.exe", command )
 
