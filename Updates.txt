@@ -1,1 +1,20 @@
+V2.3.0 
+
+    -Added CBR and CBZ support for manuals
+
+    -Updated settings program, now has "alternative manual root folder" selection. Will be used for launchbox and attract-mode for CBZ, CBR manuals. Can be used in conjunction with launchbox's pdfs.
+
+    -Updated launchbox dll plugin from .net core 3.1 to 6. Can now push game filepath to the pause menu
+
+    -Updated default emulator profile for mame for the default hotkeys for v 0.273. Ensure your command line parameters for mame  are "-keyboardprovider dinput" inside of Launchbox. For attract-mode (and +) Command arguments in would be [name] -keyboardprovider dinput
+
+    -Added a folder in \Super pause menu\Emulators for older emulator hotkey configs. Called "Older and alt emulator configs"
+
+    -Changed the pause/unpause button in mame to F5 to match the new mame default keys.
+
+    -If a game were to be closed externally while the pause menu screen was up, there is potential for the game to be muted on next launch. I added some logic to unmute on the next launch if that were the case.
+
+    -Removed manual folder path option in the attract mode plugin menu, can change the setting in the settings.exe
+
+
 V2.2.1 - Fixed a bug where the reset option shows on the menu even when it's disabled in the settings. Fixed some errors on the manual file.
