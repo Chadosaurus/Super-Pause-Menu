@@ -17,4 +17,5 @@ Added a folder
 -Changed the pause/unpause button in mame to F5 to match the new mame default keys.
 -Updated settings program, now has "alternative manual root folder" selection. Will be used for launchbox and attract-mode for CBZ, CBR manuals.
 -If a game were to be closed externally while the pause menu screen was up, there is potential for the game to be muted on next launch. I added some logic to unmute on the next launch if that were the case.
+-Removed manual folder path option in the attract mode plugin menu, can change the setting in the settings.exe
 
