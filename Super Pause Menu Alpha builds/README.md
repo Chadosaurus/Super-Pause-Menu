@@ -1,7 +1,7 @@
 Latest build not quite ready for full release. Could be buggy.
 
 -Working on- (Priorities may changed or dropped)
-1. Implementing CBZ and CBR support for manuals
+1. Implementing CBZ and CBR support for manuals - Done
 2. Allowing the user to create submenus for their hotkeys
 3. Video support
 4. Guide book support
@@ -18,4 +18,4 @@ Added a folder
 -Updated settings program, now has "alternative manual root folder" selection. Will be used for launchbox and attract-mode for CBZ, CBR manuals.
 -If a game were to be closed externally while the pause menu screen was up, there is potential for the game to be muted on next launch. I added some logic to unmute on the next launch if that were the case.
 -Removed manual folder path option in the attract mode plugin menu, can change the setting in the settings.exe
-
+-Added CBR and CBZ support to manuals.
