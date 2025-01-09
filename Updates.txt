@@ -1,3 +1,11 @@
+V2.3.1
+
+-Fixed an issue if someone had an incorrectly labelled .cbr file as a cbz, and vice versa, it will now try opening up the manuals as the opposite file type if there are issues the first time.
+
+-Added logic so the menu will display the word "Error!" within the gui breifly if the cbr or cbz file has issues opening (ie, no contents in the file).
+
+-Changed how the menu retrieves the pages when page "turned" for better performance.
+
 V2.3.0 
 
     -Added CBR and CBZ support for manuals
