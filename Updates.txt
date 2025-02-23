@@ -1,3 +1,32 @@
+V2.4.0
+
+- Added a strategy guide menu! Place any amount of strategy guide files within the strategy guide game folder and a new menu item will be added to the main pause screen called "Strategy Guides". The last open strategy guide page will automatically be bookmarked, available to be recalled during, or even on the next play session. Supported file types are image files including jp2 files within a folder OR a .zip, .cbz, .7z, .cbr, .rar, .pdf, even .txt. The strategy guide filename (minus extension) will be the name used on the Strategy guide menu. The default strategy guide folder will be located in Launchbox\super pause menu\Strategy Guides\[Platform]\[Game Title] or Launchbox\super pause menu\Strategy Guides\[Platform]\[Rom Filname (minus .ext)]. The strategy guide root folder and the sizing attributes can be changed on page 6 of the "Customize Menu" option in the Super pause menu settings (Located in tools -> Super Pause Menu Settings in Launchbox). The conversion process can take a bit of time, the quickest method would be to use non-jp2 images in a folder, rather than an archive. The longest loading time would be an archive file containing a bunch of Jp2 images. .txt conversion can take a bit of time as well (converting it to a multi-"page" image).
+
+- Added sqlite3 dll to help store more complex information, such as the strategy guide bookmarks.
+
+-Included imagemagick convert program in resources to convert jp2 images to regular .jpg images that Super Pause Menu can handle.
+
+-Added folder, .zip, .7z, .rar, .txt support for manuals.
+
+-Changed the default "Back" menu key to escape, instead of delete to avoid incidental deletion of anything.
+
+-Added some basic emulator settings for Yuzu emulator (Nintendo Switch).
+
+- Added some emulator settings for Daphne emulator
+
+- Added some extra .bat support. If launchbox/bigbox runs a .bat file for an emulator, which then in turns launches an emulator executable (such as may be needed for Daphne), super pause menu will wait 10 seconds for the emulator to launch after the .bat file.
+
+- Enabled forceful activation to EPSXE emulator
+
+- Changed the font sizing to all custom profiles so it can fit in "Strategy Guides".
+
+- Changed font size handling on the main menu to avoid any single menu item taking up multiple lines
+
+- Super Pause Menu will now delete the temp folder it creates after a play session in the super pause menu folder
+
+- Added a "Loading..." animation to the Strategy guide and manual selection.
+
+
 V2.3.1
 
 -Fixed an issue if someone had an incorrectly labelled .cbr file as a cbz, and vice versa, it will now try opening up the manuals as the opposite file type if there are issues the first time.
