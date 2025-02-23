@@ -4,7 +4,7 @@ Latest build not quite ready for full release. Could be buggy.
 1. Implementing CBZ and CBR support for manuals - Done
 2. Allowing the user to create submenus for their hotkeys
 3. Video support
-4. Guide book support
+4. Guide book support - Done
 5. Managing Save state images
 6. Artwork viewer
 7. Different manual/Strategy folder location without changing profiles
@@ -19,3 +19,4 @@ Updated default emulator profile for mame for the default hotkeys for v 0.273. E
 -If a game were to be closed externally while the pause menu screen was up, there is potential for the game to be muted on next launch. I added some logic to unmute on the next launch if that were the case.
 -Removed manual folder path option in the attract mode plugin menu, can change the setting in the settings.exe
 -Added CBR and CBZ support to manuals.
+-Added strategy guide menu
